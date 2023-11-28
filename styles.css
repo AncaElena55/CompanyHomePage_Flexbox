@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, h5, li {
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: gray;
+}
+
+a:active {
+    text-decoration: none;
+    color: #DA70D6;
+}
+
+#mission {
+    background-image: url(./images/background-mission.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.motto {
+    background-color: white;
+    text-align: center;
+    
+    padding: 1px 0;
+}
+
+#portofolio h1, #portofolio h2 {
+    text-align: center;
+    
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    
+}
+
+.project h3 {
+    margin-left: 10px;
+}
+
+.members {
+    background-image: url(./images/background-team2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 40px;
+}
+
+.member img {
+    width: 200px;
+    height: auto;
+}
+.member {
+    color: white;
+}
+
+#contact h5, .copyright h5 {
+    padding: 10px 0;
+    text-align: center;
+}
+
